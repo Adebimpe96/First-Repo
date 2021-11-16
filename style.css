@@ -1,0 +1,72 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+body {
+  font-size: 1.8rem;
+}
+.btn-primary {
+  width: auto;
+  height: auto;
+  color: white;
+  margin: auto;
+}
+.bkgrd-img {
+  height: 150vh;
+  object-fit: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: url("https://res.cloudinary.com/dfakbssdl/image/upload/v1637073992/WhatsApp_Image_2021-11-16_at_3.43.49_PM_qxp8mp.jpg");
+  background-position: top;
+  background-size: cover;
+}
+h2 {
+  color: rgb(45, 5, 126);
+  text-align: center;
+}
+.bkgrd-img p {
+  color: rgb(25, 25, 124);
+  font-size: 1.5rem;
+  font-weight: bolder;
+  font-family: Lobster;
+  text-align: center;
+  /* text-shadow: white 6px 6px 25px; */
+}
+
+.container-fluid h2 {
+  font-style: italic;
+  font-size: large;
+  font-weight: bold;
+}
+.bg-dark {
+  color: white;
+  justify-content: center;
+}
+.bg-dark a {
+  color: grey;
+}
+/* sample */
+.card-img-overlay {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* height: 50vh; */
+}
+.card-img {
+  max-height: 30%;
+  object-fit: cover;
+}
+.card-text {
+  font-size: large;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-weight: bold;
+}
+.card-title {
+  font-weight: bolder;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 80px;
+}
+.card-bg-dark-text-light {
+  height: 70rem;
+}
